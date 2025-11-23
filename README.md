@@ -2,6 +2,8 @@
 
 这是一个完整的 Claude Code 自动审批脚本集合，包含多种审批策略和工具，支持 Linux 和 Windows 环境。
 
+**中文版本** | [English Version](README_en.md)
+
 ## 📁 目录结构
 
 ```
