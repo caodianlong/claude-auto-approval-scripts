@@ -1,0 +1,13 @@
+{
+  "PreToolUse": [
+    {
+      "matcher": "Write|Edit|Bash",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash .claude/dev-environment-approve.sh"
+        }
+      ]
+    }
+  ]
+}
