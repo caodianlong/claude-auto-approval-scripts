@@ -68,7 +68,7 @@ if [[ "$tool_name" == "Bash" ]]; then
     fi
 
     # 开发环境允许的命令
-    dev_commands="npm yarn pip pip3 python python3 node ruby gem bundle composer"
+    dev_commands="npm yarn pip pip3 python python3 node ruby gem bundle composer docker"
     for dev_cmd in $dev_commands; do
         if [[ "$command" == "$dev_cmd"* ]]; then
             echo '{"decision": "approve"}'
